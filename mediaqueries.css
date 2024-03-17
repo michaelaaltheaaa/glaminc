@@ -150,7 +150,7 @@
  .left2{
   width: 1250px;
   height: 1250px;
-  padding: 15%;
+  float: left;
  }
 
  .right2{
@@ -335,7 +335,7 @@ float: left;
 .left2{
 width: 1250px;
 height: 1250px;
-padding: 15%;
+float: left;
 }
 
 .right2{
@@ -346,7 +346,6 @@ height: 1250px;
 .map_img{
   width: 1250px;
   height: 900px;
-  padding: 15%;
 }
 
 .address_img{
