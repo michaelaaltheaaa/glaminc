@@ -1,18 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Check if the device is a mobile device (e.g., screen width less than or equal to 768 pixels)
-    if (window.innerWidth <= 768) {
-        // Get the element representing the "home" section
-        var aboutSection = document.getElementById("home");
-
-        // Scroll to the "About" section
-        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-        // Adjust hero image size for better visibility on mobile devices
-        var heroImage = document.getElementById("home__pic-container");
-        home.style.maxWidth = "100%"; // Set maximum width to 100% to ensure it fits within the viewport width
-        home.style.height = "auto"; // Allow the height to adjust proportionally based on the width
-    }
-});
 
 function toggleMenu() {
     var menu = document.querySelector('.nav-links');
