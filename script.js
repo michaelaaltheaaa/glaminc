@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the element you want to scroll to
+    var targetElement = document.getElementById("about");
+
+    // Scroll to the target element
+    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
 function toggleMenu() {
     var menu = document.querySelector('.nav-links');
     var hamburger = document.querySelector('.hamburger');
