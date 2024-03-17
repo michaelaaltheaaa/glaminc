@@ -17,6 +17,24 @@
   display: none;
  }
 
+ .icon_sticky {
+  top: 30%; /* Adjust the top position as needed */
+  right: 0; /* Adjust the right position as needed */
+  transform: translateY(-50%);
+}
+
+.contact_sticky_img {
+  top: 56%; /* Adjust the top position as needed */
+  left: 0; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+}
+
+.contact_sticky {
+  top: 80%; /* Adjust the top position as needed */
+  left: 0; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+}
+
 }
 
 /* For phone screens */
@@ -148,6 +166,7 @@
    }
 
  .left2{
+  padding: 10%;
   width: 1250px;
   height: 1250px;
  }
@@ -175,6 +194,7 @@
   width: 1250px;
   height: 1000px;
   padding: 20%;
+  padding-top: 0%;
  }
 
  .address_text{
@@ -190,6 +210,15 @@
 
 footer{
   display: none;
+}
+
+.icon_sticky,
+.contact_sticky_img,
+.contact_sticky {
+  transform: translateY(0);
+  top: unset; /* Remove the top position */
+  left: unset; /* Remove the left position */
+  right: unset; /* Remove the right position */
 }
  
 }
@@ -366,14 +395,17 @@ height: 900px;
   display: block;
 }
 
-.contact_sticky{
-top: 40%;
-}
-
 footer{
 display: none;
 }
 
+.icon_sticky,
+.contact_sticky_img,
+.contact_sticky {
+  transform: translateY(0);
+  top: unset; /* Remove the top position */
+  left: unset; /* Remove the left position */
+  right: unset; /* Remove the right position */
 }
 
-
+}
