@@ -186,7 +186,10 @@
  .contact_sticky{
   top: 40%;
 }
- 
+
+footer{
+  display: none;
+}
 }
 
 /* For iPad screens */
