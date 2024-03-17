@@ -1,0 +1,378 @@
+/* For regular desktop screens */
+@media screen and (min-width: 768px) {
+  .nav-links {
+      display: flex; /* Show the navigation links as flex for larger screens */
+      position: static; /* Reset the position */
+  }
+
+  .hamburger {
+      display: none; /* Hide the hamburger menu icon on larger screens */
+  }
+
+  .nav-links a {
+    font-size: 2.5rem;
+}
+
+.address_text{
+  display: none;
+ }
+
+}
+
+/* For phone screens */
+  @media screen and (max-width: 767px) {
+    .nav-links {
+        display: none; /* Hide the navigation links by default on smaller screens */
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: -7rem;
+        margin-left: 15rem;
+        margin-right: -2rem;
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger menu icon on smaller screens */
+        cursor: pointer;
+    }
+  
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home {
+      margin-left: -21rem;
+      width: 1800px;
+      height: 2000px;
+    }
+
+    .home__pic-container{
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the container */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of the container */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: auto;
+    float: left;
+    }
+
+    #about{
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+
+   .about_text_para{
+    width: 1200px;
+   }
+
+   .left{
+    width: 1200px;
+    height: 900px;
+    padding: 5%;
+   }
+
+   .middle{
+    width: 1200px;
+    height: 900px;
+    padding: 5%;
+   }
+
+   .right{
+    width: 1200px;
+    height: 900px;
+    float: left;
+    padding: 5%;
+   }
+
+   .about_heading{
+    width: 1300px;
+    height: 20px;
+    float: left;
+   }
+
+   #services{
+    width: 1300px;
+    height: 800px;
+   }
+
+   .services_heading{
+    width: 1300px;
+    height: 20px;
+    float: left;
+   }
+
+   .contact_heading{
+    width: 1300px;
+    height: 20px;
+    float: left;
+   }
+
+   .reviews_heading{
+    width: 1300px;
+    height: 20px;
+    float: left;
+   }
+
+   .map_heading{
+      width: 1300px;
+      height: 20px;
+      float: left;
+   }
+  
+   #contact{
+    width: 1300px;
+    height: 2700px;
+    float: left;
+   }
+
+   .working_hours{
+    width: 1250px;
+    height: 1100px;
+    float: left;
+   }
+
+   .reach_out{
+    width: 1250px;
+    height: 1100px;
+    float: left;
+ }
+
+   #reviews{
+    width: 1300px;
+    height: 2000px;
+    
+   }
+
+   #map{
+    width: 1300px;
+    height: 800px;
+   }
+
+ .left2{
+  width: 1250px;
+  height: 1250px;
+ }
+
+ .right2{
+  width: 1250px;
+  height: 1250px;
+ }
+
+ .map_img{
+  float: left;
+  width: 1250px;
+  height: 900px;
+ }
+
+ .address_img{
+ display: none;
+ }
+
+ .map_img img{
+  max-width: 100%; /* Ensure the image doesn't exceed the width of the container */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of the container */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: auto; 
+  width: 1250px;
+  height: 1000px;
+ }
+
+ .address_text{
+  text-align: center;
+  width: 1250px;
+  height: 1000px;
+  display: block;
+ }
+
+ .contact_sticky{
+  top: 40%;
+}
+
+footer{
+  display: none;
+}
+ 
+}
+
+/* For iPad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .nav-links {
+    display: none; /* Hide the navigation links by default on smaller screens */
+    display: block;
+    margin-top: 10rem;
+    margin-bottom: -12rem;
+    margin-left: 20rem;
+    margin-right: -.5rem;
+}
+
+
+.hamburger {
+    display: block; /* Show the hamburger menu icon on smaller screens */
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home {
+  margin-left: -15rem;
+  width: 2100px;
+  height: 2000px;
+}
+
+.home__pic-container{
+max-width: 100%; 
+max-height: 100%; 
+display: block; 
+margin: auto;
+float: left;
+}
+
+#about{
+  margin-bottom: 1rem;
+  margin-top: 1%;
+}
+
+.about_text_para{
+    width: 1500px;
+    height: 1000px;
+}
+
+.about_heading{
+width: 1300px;
+height: 30px;
+float: left;
+}
+
+.about_img{
+max-width: 100%; 
+display: block; 
+margin: 0%;
+float: left;
+}
+
+.left{
+  width: 1100px;
+  height: 900px;
+  padding: 5%;
+}
+  
+.middle{
+  width: 1100px;
+  height: 900px;
+  padding: 5%;
+}
+  
+.right{
+  width: 1100px;
+  height: 900px;
+  float: left;
+  padding: 5%;
+}
+
+#services{
+  width: 1300px;
+  height: 800px;
+ }
+
+.services_heading{
+  width: 1300px;
+  height: 0px;
+  float: left;
+ }
+
+.contact_heading{
+  width: 1300px;
+  height: 20px;
+  float: left;
+ }
+
+ .reviews_heading{
+  width: 1300px;
+  height: 20px;
+  float: left;
+ }
+
+ .map_heading{
+    width: 1300px;
+    height: 20px;
+    float: left;
+ }
+
+ #contact{
+  width: 1300px;
+  height: 2700px;
+  float: left;
+ }
+
+ .working_hours{
+  width: 1250px;
+  height: 1100px;
+  float: left;
+ }
+
+ .reach_out{
+  width: 1250px;
+  height: 1100px;
+  float: left;
+}
+
+ #reviews{
+  width: 1300px;
+  height: 2000px;
+  
+ }
+
+ #map{
+  width: 1300px;
+  height: 800px;
+ }
+
+.left2{
+width: 1250px;
+height: 1250px;
+}
+
+.right2{
+width: 1250px;
+height: 1250px;
+}
+
+.map_img{
+  width: 1250px;
+  height: 900px;
+}
+
+.address_img{
+display: none;
+}
+
+.map_img img{
+max-width: 100%;
+max-height: 100%; 
+display: block;
+margin: auto; 
+width: 1250px;
+height: 900px;
+}
+
+.address_text{
+  text-align: center;
+  width: 1250px;
+  height: 1000px;
+  display: block;
+}
+
+.contact_sticky{
+top: 40%;
+}
+
+footer{
+display: none;
+}
+
+}
+
+

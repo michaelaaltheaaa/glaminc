@@ -1,0 +1,32 @@
+/* For regular desktop screens */
+@media screen and (min-width: 768px) {
+  .nav-links {
+      display: flex; /* Show the navigation links as flex for larger screens */
+      position: static; /* Reset the position */
+  }
+
+  .hamburger {
+      display: none; /* Hide the hamburger menu icon on larger screens */
+  }
+}
+
+  @media screen and (max-width: 767px) {
+    .nav-links {
+        display: none block; /* Hide the navigation links by default on smaller screens */
+        
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger menu icon on smaller screens */
+        cursor: pointer;
+    }
+  
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
