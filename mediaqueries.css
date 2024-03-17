@@ -21,11 +21,6 @@
 
 /* For phone screens */
   @media screen and (max-width: 767px) {
-    
-    body {
-      transform: scale(0.8); /* Adjust the scale factor as needed for smaller screens */
-      transform-origin: top left; /* Adjust the transform origin to avoid misalignment */
-    }
 
     .nav-links {
         display: none; /* Hide the navigation links by default on smaller screens */
