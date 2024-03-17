@@ -43,9 +43,10 @@
     }
 
     #home {
-      margin-left: -21rem;
-      width: 1800px;
-      height: 2000px;
+      padding: 5vw; /* Changed padding to be relative */
+      height: auto; /* Changed height to be auto */
+      overflow: auto; /* Allow overflow for scrolling */
+    
     }
 
     .home__pic-container{
