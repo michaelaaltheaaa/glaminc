@@ -1,9 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the element you want to scroll to
-    var targetElement = document.getElementById("about");
+    // Check if the device is a mobile device (e.g., screen width less than or equal to 768 pixels)
+    if (window.innerWidth <= 768) {
+        // Get the element representing the "About" section
+        var aboutSection = document.getElementById("about");
 
-    // Scroll to the target element
-    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Scroll to the "About" section
+        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        
+        // Zoom out on mobile devices
+        document.body.style.zoom = "80%"; // Adjust the zoom level as needed
+    }
 });
 
 function toggleMenu() {
