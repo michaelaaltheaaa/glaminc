@@ -44,9 +44,8 @@
 
     #home {
       padding: 5vw; /* Changed padding to be relative */
-      height: auto; /* Changed height to be auto */
-      overflow: auto; /* Allow overflow for scrolling */
-    
+      height: 20vh; /* Changed height to be auto */
+      width: auto;   
     }
 
     .home__pic-container{
