@@ -6,9 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Scroll to the "About" section
         aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        
-        // Zoom out on mobile devices
-        document.body.style.zoom = "80%"; // Adjust the zoom level as needed
+
+        // Adjust hero image size for better visibility on mobile devices
+        var heroImage = document.getElementById("hero-image");
+        heroImage.style.maxWidth = "100%"; // Set maximum width to 100% to ensure it fits within the viewport width
+        heroImage.style.height = "auto"; // Allow the height to adjust proportionally based on the width
     }
 });
 
