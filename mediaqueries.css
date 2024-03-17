@@ -42,10 +42,11 @@
         align-items: center;
     }
 
+  
     #home {
-      padding: 5vw; /* Changed padding to be relative */
-      height: 20vh; /* Changed height to be auto */
-      width: auto;   
+      margin-left: -21rem;
+      width: 20vh;
+      height: 2000px;
     }
 
     .home__pic-container{
