@@ -165,7 +165,7 @@ section {
     width: 50%;
     float: left;
     font-size: xx-large;
-    margin-top: 2rem;
+    
   }
 
   .about_img{
@@ -350,12 +350,13 @@ section {
 
 .map_img{
   margin-bottom: 2rem;
-  float: left;
   width: auto;
   height: 1000;
   cursor: pointer;
-  object-fit: cover;  
-  padding-left: 20%;
+  object-fit: cover; 
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
 }
 
 
