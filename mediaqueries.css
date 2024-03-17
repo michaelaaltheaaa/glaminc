@@ -150,6 +150,7 @@
  .left2{
   width: 1250px;
   height: 1250px;
+  padding: 20%;
  }
 
  .right2{
@@ -174,6 +175,7 @@
   margin: auto; 
   width: 1250px;
   height: 1000px;
+  padding: 20%;
  }
 
  .address_text{
@@ -190,6 +192,7 @@
 footer{
   display: none;
 }
+ 
 }
 
 /* For iPad screens */
@@ -332,6 +335,7 @@ float: left;
 .left2{
 width: 1250px;
 height: 1250px;
+padding: 20%;
 }
 
 .right2{
