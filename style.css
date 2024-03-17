@@ -162,6 +162,7 @@ section {
   }
 
   .about_text_para{
+    padding-top: 5vh;
     width: 50%;
     float: left;
     font-size: xx-large;
