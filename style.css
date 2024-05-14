@@ -8,6 +8,7 @@
 }
 
 body {
+
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 450;
@@ -29,14 +30,13 @@ a,
   transition: all 300ms ease;
 }
 
-
 /* DESKTOP NAV */
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Distribute items along the main axis */
-    height: 17vh;
+    height: 12vh;
     position: fixed;
     width: 100%; /* Take full width of the viewport */
     background-color: white; /* Adjust background color as needed */
@@ -59,11 +59,14 @@ nav {
 }
 
 .nav-links li {
-  margin-right: 2rem; /* Add spacing between navigation links */
+  margin-right: 8rem; /* Add spacing between navigation links */
+  
 }
 
 .nav-links a {
-  font-size: 1.90rem; /* Adjust font size as needed */
+  font-size: 15px; /* Adjust font size as needed */
+  margin: 50px auto;
+  line-height: 20px;
 }
 
 .nav-menu.active{
@@ -80,7 +83,7 @@ a {
 a:hover {
   color: purple;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: .5vh;
   text-decoration-color: plum;
 }
 
@@ -93,17 +96,21 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
+
+
 .hamburger{
-  flex: 0 0 auto;
+  flex: 0 00 auto;
+  position: 10vh;
   display: none; /* Hide hamburger menu by default */
+
   
 }
 
 .bar{
   display: block;
-  width: 75px;
-  height: 25px;
-  margin: 5px auto;
+  width: 45px;
+  height: 15px;
+  margin: 2px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: plum;
@@ -240,6 +247,7 @@ section {
 }
 
 .contact_heading{
+
   gap: 2rem;
   margin-top: 8rem;
   margin-bottom: 5rem;
@@ -248,7 +256,7 @@ section {
 
 .contact_title{
   text-align: center;
-  font-size: 125px;;
+  font-size: 125px;
 }
 
 .about_contact{
@@ -264,11 +272,9 @@ section {
   float: left;
   width: 45%;
   height: 1000px;
-
   font-size: xx-large;
   padding-top: 0%;
   text-align: center;
-  font-size: xx-large;
   background-color: #e8cd93
 }
 
@@ -291,7 +297,6 @@ section {
   padding-top: 0%;
   padding-bottom: 0%;
   text-align: center;
-  font-size: xx-large;
 }
 
 .reach_title{
@@ -368,14 +373,14 @@ section {
   top: 30%;
   right: 0;
   transform: translateY(-50%);
-  width: 40px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
-  background-color: #bc9dbf; /* Example background color */
-  padding: 40px; /* Example padding */
-  border-radius: 0px; /* Example border radius */
+  width: 40px; 
+  height: 400px;
+  background-color: #bc9dbf; 
+  padding: 40px; 
+  border-radius: 0px; 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center-align vertically */
+  justify-content: center;
   align-items: center; /
 }
 
@@ -384,16 +389,15 @@ section {
   top: 56%;
   left: 0;
   transform: translateY(-50%);
-  width: 40px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
-  padding: 35px; /* Example padding */
-  border-radius: 0px; /* Example border radius */
+  width: 40px; 
+  height: 300px; 
+  padding: 35px; 
+  border-radius: 0px; 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center-align vertically */
+  justify-content: center; 
   align-items: center;
   border: 5px solid #EEBA2B ;
-
 }
 
 .contact_sticky{
@@ -401,21 +405,20 @@ section {
   top: 80%;
   left: 0;
   transform: translateY(-50%);
-  width: 40px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
-  background-color: rgb(188, 157, 191, 0.8); /* Example background color */
-  padding: 40px; /* Example padding */
-  border-radius: 0px; /* Example border radius */
+  width: 40px;
+  height: 300px;
+  background-color: rgb(188, 157, 191, 0.8); 
+  padding: 40px; 
+  border-radius: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center-align vertically */
+  justify-content: center; 
   align-items: center;
   background-color:rgb(238, 186, 43, 0.9);
-  
 }
 
 .sticky_text{
-  writing-mode: vertical-rl; /* Vertical writing mode */
+  writing-mode: vertical-rl; 
   text-orientation: mixed; 
   transform: rotate(180deg);
   font-size:xx-large;
